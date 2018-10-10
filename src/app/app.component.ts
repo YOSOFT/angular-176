@@ -6,5 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  titulo = 'Hola Angular';
+  imagenUrl = 'assets/logo.png';
+  elementos = [{
+    titulo : 'angular',
+    ciudad : 'bogota'
+  }, {
+    titulo : 'react',
+    ciudad : 'bogota'
+  }, {
+    titulo : 'vue',
+    ciudad : 'bogota'
+  }, {
+    titulo : 'ionic',
+    ciudad : 'bogota'
+  }, {
+    titulo : 'flutter',
+    ciudad : 'bogota'
+  }];
+
+  alerta() {
+    alert('Se hizo click en la imagen');
+  }
 }
